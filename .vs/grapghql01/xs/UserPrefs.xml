@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{431BBC69-3A67-4957-BF09-003B6595990B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="20" Column="3" />
+      <File FileName="Models/Student.cs" Line="11" Column="23" />
+      <File FileName="IService/IStudentService.cs" Line="8" Column="16" />
+      <File FileName="Service/StudentService.cs" Line="22" Column="14" />
+      <File FileName="Models/StudentType.cs" Line="6" Column="10" />
+      <File FileName="Models/Query.cs" Line="8" Column="50" />
+      <File FileName=".editorconfig" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="grapghql01" expanded="True">
+            <Node name="grapghql01" expanded="True">
+              <Node name="IService" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Service" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.grapghql01 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

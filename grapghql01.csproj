@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="HotChocolate.AspNetCore" />
+    <None Remove="HotChocolate.AspNetCore.Playground" />
+    <None Remove="Models\" />
+    <None Remove="IService\" />
+    <None Remove="Service\" />
+    <None Remove="GraphQL" />
+    <None Remove="GraphQL-Parser" />
+    <None Remove="GraphQL.Server.Transports.AspNetCore" />
+    <None Remove="GraphQL.Server.Transports.Subscriptions.Abstractions" />
+    <None Remove="GraphQL.Server.Ui.Playground" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="12.15.1" />
+    <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.5.5" />
+    <PackageReference Include="GraphQL.Server.Ui.Playground" Version="7.1.1" />
+    <PackageReference Include="GraphQL" Version="7.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="IService\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+</Project>
